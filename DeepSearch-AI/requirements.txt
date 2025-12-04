@@ -1,0 +1,26 @@
+# Core Dependencies
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+openai>=1.0.0
+anthropic>=0.25.0
+
+# Web Interface
+gradio>=4.0.0
+
+# Data Processing
+pandas>=2.0.0
+ipython>=8.0.0
+
+# Agents Framework
+# Note: This appears to be OpenAI's agents SDK or a custom framework
+# You may need to install it separately depending on the specific package
+agents
+
+# Optional: If using Jupyter notebooks
+jupyter>=1.0.0
+notebook>=6.0.0
+
+# Development Dependencies (optional)
+python-multipart>=0.0.6  # For Gradio file uploads
+requests>=2.31.0  # For HTTP requests (if needed)
+aiohttp>=3.8.0  # For async HTTP requests (if needed)
