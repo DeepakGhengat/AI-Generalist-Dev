@@ -260,25 +260,6 @@ python optimize.py
 
 ---
 
-## ❓ FAQ
-
-**Q: Do I need both API keys?**
-A: For voice: only OPENAI_API_KEY. For optimizer: either ANTHROPIC or OPENAI.
-
-**Q: Which model is better?**
-A: Claude 4.5 Sonnet is excellent for complex reasoning. ChatGPT is faster and cheaper. Try both!
-
-**Q: Can I use it offline?**
-A: No, requires internet for API calls.
-
-**Q: How much does it cost?**
-A: Voice: ~$0.01-0.05 per prompt. Optimizer: ~$1-3 per run (5 iterations, 20 test cases).
-
-**Q: How do I customize the optimizer?**
-A: Edit the TEST_QUERIES and FUNCTIONS arrays directly in `optimize.py`.
-
----
-
 ## 🚀 Quick Command Reference
 
 ```bash
@@ -312,19 +293,7 @@ ls output/
 
 ---
 
-## 🤝 Contributing
-
-This is a clean, simple codebase:
-- `ultra_simple.py` - 47 lines
-- `optimize.py` - 743 lines, self-contained
-
 Feel free to fork and customize!
-
----
-
-## 📄 License
-
-MIT License - see LICENSE file
 
 ---
 
@@ -338,6 +307,3 @@ MIT License - see LICENSE file
 
 **Still stuck?** Open an issue on GitHub.
 
----
-
-**Built with ❤️ using Claude 4.5 Sonnet and ChatGPT**
